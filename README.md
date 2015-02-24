@@ -1,5 +1,7 @@
 # Sample-app
 
+This app is used to test deployment for Intercity based servers
+
 ## Set up your Dev environment
 
 1. Make sure you have Postgresql installed
