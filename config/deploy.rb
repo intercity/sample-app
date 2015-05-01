@@ -1,12 +1,12 @@
 lock '>= 3.1.0'
 set :application, 'test'
-set :repo_url, 'git@github.com:intercity/sample-app.git'
+set :repo_url, 'git@git.firmhouse.com:jvanbaarsen/ic-test.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/u/apps/test'
+set :deploy_to, '/u/apps/ruby222'
 
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
